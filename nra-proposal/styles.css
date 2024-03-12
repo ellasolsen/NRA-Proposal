@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 5%;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    color: grey;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+nav a:link,
+nav a:visited {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: #d9002b;
+}
+
+li{
+    padding: 0;
+    font-size: 0.75em;
+    display:flex;
+    color: grey;
+    justify-content: flex-start
+;}
+
+p {
+    padding: 10px;
+    color: grey;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5em;
+}
+
+.inspo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.inspo a {
+    flex: 1;
+    margin: 0 10px; /
+}
+.inspo img {    
+    max-width: 100%;
+}
+
+.mockup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mockup img {
+    max-width: 50%;
+}
+
+.mockup div {
+    display: flex;
+    max-width: 50%;
+    align-content: end;
+}
+
+#mobile {max-width: 25%;}
+#styleguide {max-width: 25%;}
+
+.summary {
+    display: flex;
+    align-items: left;
+}#mobile {
+    margin-right: 20px;
+}
